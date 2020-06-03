@@ -2,7 +2,7 @@ name: test server deployment
 
 on: 
   pull_request:
-    types: ['deploy-on-test-server']
+    types: ['deploy']
 
 jobs:
   build:
