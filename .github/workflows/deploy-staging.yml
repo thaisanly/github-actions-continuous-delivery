@@ -1,8 +1,8 @@
-name: deploy pull request to test server
+name: Staging deployment
 
-on: 
+on:
   pull_request:
-    types: ['deploy']
+    types: [labeled]
 
 jobs:
   build:
