@@ -1,3 +1,9 @@
-name: Staging deployment
+name: test server deployment
 
 on: 
+  pull_request:
+    types: ['deploy-on-test-server']
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
